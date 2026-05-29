@@ -1,9 +1,8 @@
 
-import { Container } from "react-bootstrap"
 function Sectionseven() {
   return (
     <>
-    <Container fluid>
+    <div>
       <div className="sect7">
          <h1 className="sect7-h1"> 5 <span className="sect7-span">Stars</span></h1>
         <h1 className="sect7-note">Make A Reservation</h1>
@@ -35,7 +34,7 @@ template is made by David</p>
         <button className="text3-btn3">Email </button><span>daveorjih943@gmail.com</span>
       </div>
     </div>
-    </Container>
+    </div>
     
     </>
   )

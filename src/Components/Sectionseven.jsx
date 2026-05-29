@@ -1,9 +1,9 @@
 
-import { Container } from "react-bootstrap"
+
 function Footer() {
   return (
     <>
-    <Container fluid>
+    <div>
       
     <div className="sect7-texts">
       <div className="sect7-text1">
@@ -23,7 +23,7 @@ template is made by David</p>
         <button className="text3-btn3">Email </button><span>daveorjih943@gmail.com</span>
       </div>
     </div>
-    </Container>
+    </div>
     
     </>
   )

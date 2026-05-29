@@ -25,22 +25,22 @@ const Contactone = () => {
             
         </div>
         <div >
-             <div style={{display:"flex" ,justifyContent:"space-between", gap:"20px"}} className='cont1d'>
+             <div style={{display:"flex" , gap:"50px"}} className='cont1d'>
             <div><h4 style={{fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Your name</h4>
-            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white"}}  className='cont1e'/></div>
+            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white" , color:"white", fontSize:"16px", fontFamily:"poppins", outline:"none"}}  className='cont1e'/></div>
             
             <div> <h4 style={{fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Your Email</h4>
-            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white"}} className='cont1e'/></div>
+            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white" , color:"white" , fontSize:"16px", fontFamily:"poppins", outline:"none",width:"150%" }} className='cont1e'/></div>
 
         </div>
         
         <br/>  
             <h4 style={{fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Subject</h4>
-            <input type="longtext" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white", color:"white", width:"100%"}}/>
+            <input type="longtext" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white", color:"white", width:"100%" , fontSize:"16px", fontFamily:"poppins", outline:"none"}}/>
         
             <h4 style={{marginTop:"30px",fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Message</h4>
             <br />
-            <input type="longtext" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white", color:"white", width:"100%", marginBottom:"40px"}}/>
+            <textarea type="longtext" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white", color:"white", width:"100%", marginBottom:"40px", fontSize:"16px", fontFamily:"poppins", height:"100px", outline:"none"}}/>
             
             <button style={{color:'white', border:"none", backgroundColor:"#ECB358", padding:"5px 40px", justifySelf:"center", alignSelf:"center",fontFamily:"poppins", fontSize:"14px", fontWeight:"400"}} className='cont1f'> Click Here To Send A Message </button>
         </div>
