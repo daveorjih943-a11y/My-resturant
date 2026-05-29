@@ -33,8 +33,9 @@ const picings = pics.map((pic,id)=>(
         <br />
         <Buttonprop btnText=" Order Now"/>
         </div>
+         <img  className='menu3pic' src={pic.image} alt="" />
        <div>
-        <img className='menu3pic' src={pic.image} alt="" />
+       
        </div>
     </div>
 ))
@@ -42,7 +43,8 @@ const picings = pics.map((pic,id)=>(
     <>
     <Container fluid>
         <div>
-            <Goldtext Text="The menu"styling={{textAlign:"center"}}/>
+            <div className='goldtext'><Goldtext Text="The menu"styling={{textAlign:"center", marginBottom:"50px", borderBottom:"2px solid #BF8B1A",  paddingBottom:"10px"}}/></div>
+            
             {picings}
         </div>
     </Container>

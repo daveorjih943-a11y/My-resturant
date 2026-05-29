@@ -130,13 +130,15 @@
 
 .linking{
     transition: 0.5s ease-out;
-    color: white;
-      font-size: 0.95rem;
+    color: #BF8B1A;
+    font-size: 0.95rem;
+     
 }
 .linking:hover{
     font-size: 1rem;
-    border-bottom: 1px solid white;
+    color: #fff;
     font-family: poppins;
+    
 }
 .sect7{
     background-image: url(./assets/footerbg.png);
@@ -529,11 +531,14 @@
   }
   .menuthree{
     flex-direction: column-reverse;
+    
+    
   }
- 
+
   .menuthreetext span{
     display: none;
   }
+ 
   .menu3pic{
     width: 400px;
   }
@@ -558,7 +563,6 @@
     margin-left: 0px;
   }
   
-  .linking{
-    border-bottom: 1px solid white;
-  }
+  
+ 
 }

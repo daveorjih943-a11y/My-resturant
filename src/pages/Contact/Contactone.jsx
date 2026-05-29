@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const Contactone = () => {
   return (
     <>
-    <Container fluid>
+    <div>
         
         
         
@@ -25,12 +25,12 @@ const Contactone = () => {
             
         </div>
         <div >
-             <div style={{display:"flex" , gap:"50px"}} className='cont1d'>
+             <div style={{display:"flex" ,justifyContent:"space-between"}} className='cont1d'>
             <div><h4 style={{fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Your name</h4>
             <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white" , color:"white", fontSize:"16px", fontFamily:"poppins", outline:"none"}}  className='cont1e'/></div>
             
             <div> <h4 style={{fontFamily:"poppins ", fontSize:"18px", fontWeight:"500"}}>Your Email</h4>
-            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white" , color:"white" , fontSize:"16px", fontFamily:"poppins", outline:"none",width:"100%" }} className='cont1e'/></div>
+            <input type="text" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white" , color:"white" , fontSize:"16px", fontFamily:"poppins", outline:"none"}} className='cont1e'/></div>
 
         </div>
         
@@ -46,7 +46,7 @@ const Contactone = () => {
         </div>
        
        </div>
-    </Container>
+    </div>
     </>
   )
 }
