@@ -129,16 +129,16 @@
 }
 
 .linking{
-    transition: 0.5s ease-out;
-    color: #BF8B1A;
-    font-size: 0.95rem;
+    transition: 0.2s ease-out;
+    
+    font-size: 0.9rem;
      
 }
 .linking:hover{
-    font-size: 1rem;
-    color: #fff;
+    font-size: 0.95rem;
+    border-bottom:2px solid #BF8B1A;
     font-family: poppins;
-    
+    font-style: bold;
 }
 .sect7{
     background-image: url(./assets/footerbg.png);

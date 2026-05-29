@@ -9,10 +9,14 @@ import logo from "../assets/image1.png"
 import Imageprop from './imageprop';
 import background from "../assets/background.png"
 import Goldtext from './Somethingnew';
-
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'
 
 function Navbarr({bartext, smalltext}) {
+  const navigate=useNavigate ()
+//   const navigating = () =>(
+//     navigate("/")
+// )
   return (
     <div style={{textAlign:"center",backgroundImage:`url(${background})`,backgroundPosition:"center", height:"500px", backgroundRepeat:"no-repeat", width:"100%",backgroundSize:"cover",  justifyContent:"center"}}>
        <Navbar expand="lg" className='navbarr' >
@@ -24,11 +28,11 @@ function Navbarr({bartext, smalltext}) {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className=" links me-auto my-2 my-lg-0 w-100  justify-content-center gap-5 "
-            style={{ maxHeight: '100%', backgroundColor:"transparent"}}
+            style={{ maxHeight: '100%', backgroundColor:"transparent", color:"#BF8B1A"}}
             navbarScroll
           >
             
-            <div className="linking"><Nav.Link as={Link} to="/" style={{color:"white"}} >Home</Nav.Link></div>
+            <div><Nav.Link className="linking" as={Link} to="/" style={{color:"white"}} >Home</Nav.Link></div>
             <Nav.Link as={Link} to="/about" style={{color:"white"}} className='linking'>About</Nav.Link>
             <Nav.Link href="/menu"style={{color:"white"}} className='linking'>Menu</Nav.Link>
             <Nav.Link href="#action2"style={{color:"white"}} className='linking'>Delivery</Nav.Link>
@@ -36,7 +40,7 @@ function Navbarr({bartext, smalltext}) {
             <Nav.Link as={Link} to="/contact" style={{color:"white"}} className='linking'>Contact</Nav.Link>
           
           
-            <button style={{backgroundColor:"black", color:"white", border:"2px solid white"}}>Reservation:+23450805678</button>
+            <button onClick={()=> navigate ("/") }  style={{backgroundColor:"black", color:"white", border:"2px solid white"}}>Reservation:+23450805678</button>
           
            
           </Nav>
