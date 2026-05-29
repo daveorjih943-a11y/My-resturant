@@ -24,7 +24,7 @@ function Navbarr({bartext, smalltext}) {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className=" links me-auto my-2 my-lg-0 w-100  justify-content-center gap-5 "
-            style={{ maxHeight: '100px', backgroundColor:"#00000056"}}
+            style={{ maxHeight: '100%', backgroundColor:"transparent"}}
             navbarScroll
           >
             

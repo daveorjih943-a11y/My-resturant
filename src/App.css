@@ -123,7 +123,9 @@
     margin-top: 12px;
     font-weight: 400;
 }
-
+.links{
+    backdrop-filter: blur(10px);
+}
 
 .sect7{
     background-image: url(./assets/footerbg.png);
