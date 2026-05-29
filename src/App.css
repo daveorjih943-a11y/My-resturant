@@ -125,6 +125,7 @@
 }
 .links{
     backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .sect7{
@@ -545,5 +546,8 @@
   .cont1f{
     margin-top: 0;
     margin-left: 0px;
+  }
+  .linking{
+    border-bottom: 1px solid white;
   }
 }

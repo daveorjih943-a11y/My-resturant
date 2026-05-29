@@ -8,7 +8,7 @@ import Goldtext from "../../Components/Somethingnew";
 function Sectionone() {
   return (
     <Container >
-        <div className="sect1" style={{display:"flex" ,position:"relative"}}>
+        <div className="sect1" style={{display:"flex" ,position:"relative", marginTop:"200px", marginBottom:"200px"}}>
       <div className="picing">
        <img className="picing1" style={{marginRight:"20px"}}  src={woman} alt="" />
        <img  className="picing1"src={man} alt="" />

@@ -28,12 +28,12 @@ function Navbarr({bartext, smalltext}) {
             navbarScroll
           >
             
-            <Nav.Link href="/" style={{color:"white"}}>Home</Nav.Link>
-            <Nav.Link href="/about"style={{color:"white"}}>About</Nav.Link>
-            <Nav.Link href="/menu"style={{color:"white"}}>Menu</Nav.Link>
-            <Nav.Link href="#action2"style={{color:"white"}}>Delivery</Nav.Link>
-            <Nav.Link href="#action2"style={{color:"white"}}>Blog</Nav.Link>
-            <Nav.Link href="/contact"style={{color:"white"}}>Contact</Nav.Link>
+            <Nav.Link href="/" style={{color:"white",}} className='linking'>Home</Nav.Link>
+            <Nav.Link href="/about"style={{color:"white"}} className='linking'>About</Nav.Link>
+            <Nav.Link href="/menu"style={{color:"white"}} className='linking'>Menu</Nav.Link>
+            <Nav.Link href="#action2"style={{color:"white"}} className='linking'>Delivery</Nav.Link>
+            <Nav.Link href="#action2"style={{color:"white"}} className='linking'>Blog</Nav.Link>
+            <Nav.Link href="/contact"style={{color:"white"}} className='linking'>Contact</Nav.Link>
           
           
             <button style={{backgroundColor:"black", color:"white", border:"2px solid white"}}>Reservation:+23450805678</button>
