@@ -36,10 +36,11 @@ function Navbarr({bartext, smalltext}) {
             <Nav.Link href="/contact"style={{color:"white"}}>Contact</Nav.Link>
           
           
+            <button style={{backgroundColor:"black", color:"white", border:"2px solid white"}}>Reservation:+23450805678</button>
           
            
           </Nav>
-          <Imageprop pic={imagings}/>
+          {/* <Imageprop pic={imagings}/> */}
          
         </Navbar.Collapse>
       </Container>

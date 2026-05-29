@@ -1,6 +1,6 @@
 import eagle from "../../assets/eagle.png"
 import coloreagle from "../../assets/coloreagle.png"
-import auraa from "../../assets/aura.png"
+import auraa from "../../assets/Aura.png"
 import reiki from "../../assets/reiki.png"
 
 function Sectionsix() {
