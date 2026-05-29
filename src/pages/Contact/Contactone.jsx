@@ -42,7 +42,7 @@ const Contactone = () => {
             <br />
             <input type="longtext" style={{border:"none", backgroundColor:"black", borderBottom:"1px solid white", color:"white", width:"100%", marginBottom:"40px"}}/>
             
-            <button style={{color:'white', border:"none", backgroundColor:"#ECB358", padding:"5px 40px", justifySelf:"center", alignSelf:"center",fontFamily:"poppins", fontSize:"14px", fontWeight:"400"}} className='cont1f'> Send Message</button>
+            <button style={{color:'white', border:"none", backgroundColor:"#ECB358", padding:"5px 40px", justifySelf:"center", alignSelf:"center",fontFamily:"poppins", fontSize:"14px", fontWeight:"400"}} className='cont1f'> Click Here To Send A Message </button>
         </div>
        
        </div>
