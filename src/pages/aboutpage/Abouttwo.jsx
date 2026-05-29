@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap'
 import Goldtext from '../../Components/Somethingnew'
 
-const AboutTwo =() => {
+const Abouttt = () => {
 
   return (
     <>
@@ -26,4 +26,4 @@ const AboutTwo =() => {
   )
 }
 
-export default AboutTwo
+export default Abouttt

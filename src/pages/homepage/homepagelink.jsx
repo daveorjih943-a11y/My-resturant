@@ -1,6 +1,6 @@
 import Navbarr from "../../Components/Navbar"
 import Hero from "./hero"
-import List from "./list"
+// import List from "./list"
 import Sectionfive from "./Sectionfive"
 import Sectionfour from "./Sectionfour"
 import Sectionone from "./sectionone"
@@ -20,7 +20,7 @@ const Homepagelink = () =>{
         <Sectionthree/>
         <Sectionfour/>
         <Sectionfive/>
-        {/* <Sectionsix/> */}
+        <Sectionsix/>
         <Sectionseven/>
         </>
     )

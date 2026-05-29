@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import imaging from "../assets/imaging.png"
+import imagings from "../assets/imaging.png"
 import logo from "../assets/image1.png"
 import Imageprop from './imageprop';
 import background from "../assets/background.png"
 import Goldtext from './Somethingnew';
-import Whitetext from './Navbartext';
+
 
 
 function Navbarr({bartext, smalltext}) {
@@ -39,7 +39,7 @@ function Navbarr({bartext, smalltext}) {
           
            
           </Nav>
-          <Imageprop pic={imaging}/>
+          <Imageprop pic={imagings}/>
          
         </Navbar.Collapse>
       </Container>

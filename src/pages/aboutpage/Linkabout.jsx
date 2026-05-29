@@ -1,15 +1,10 @@
-
-// import AboutFour from "./AboutFour";
-// import AboutHero from "./AboutHero";
-// import AboutThree from "./AboutThree";
-// import AboutTwo from "./AboutTwo";
-
 import Navbarr from "../../Components/Navbar";
 import Footer from "../../Components/Sectionseven";
 import Aboutfour from "./Aboutfour";
 import Aboutone from "./Aboutone";
 import Aboutthree from "./Aboutthree";
-import AboutTwo from "./AboutTwo";
+import Abouttt from "./Abouttwo";
+
 
 
 
@@ -18,7 +13,7 @@ const Linkabout = () => {
     <>
       <Navbarr bartext="About"/>
      <Aboutone/>
-     <AboutTwo/>
+    <Abouttt/>
      <Aboutthree/>
      <Aboutfour/>
       <Footer/>
