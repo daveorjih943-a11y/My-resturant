@@ -127,7 +127,16 @@
     backdrop-filter: blur(10px);
     z-index: 1;
 }
-
+.linking{
+    transition: 0.5s ease-out;
+    color: white;
+      font-size: 0.95rem;
+}
+.linking:hover{
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+    font-family: poppins;
+}
 .sect7{
     background-image: url(./assets/footerbg.png);
     background-position: center;

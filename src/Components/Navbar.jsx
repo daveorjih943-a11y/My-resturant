@@ -10,7 +10,7 @@ import Imageprop from './imageprop';
 import background from "../assets/background.png"
 import Goldtext from './Somethingnew';
 
-
+import { Link } from 'react-router-dom'
 
 function Navbarr({bartext, smalltext}) {
   return (
@@ -28,12 +28,12 @@ function Navbarr({bartext, smalltext}) {
             navbarScroll
           >
             
-            <Nav.Link href="/" style={{color:"white",}} className='linking'>Home</Nav.Link>
-            <Nav.Link href="/about"style={{color:"white"}} className='linking'>About</Nav.Link>
+            <div className="linking"><Nav.Link as={Link} to="/" style={{color:"white"}} >Home</Nav.Link></div>
+            <Nav.Link as={Link} to="/about" style={{color:"white"}} className='linking'>About</Nav.Link>
             <Nav.Link href="/menu"style={{color:"white"}} className='linking'>Menu</Nav.Link>
             <Nav.Link href="#action2"style={{color:"white"}} className='linking'>Delivery</Nav.Link>
             <Nav.Link href="#action2"style={{color:"white"}} className='linking'>Blog</Nav.Link>
-            <Nav.Link href="/contact"style={{color:"white"}} className='linking'>Contact</Nav.Link>
+            <Nav.Link as={Link} to="/contact" style={{color:"white"}} className='linking'>Contact</Nav.Link>
           
           
             <button style={{backgroundColor:"black", color:"white", border:"2px solid white"}}>Reservation:+23450805678</button>
